@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/icons.min.css" rel="stylesheet" type="text/css"> 
+-->
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>Dice Game</title>
+    <h1>The Dice Game</h1>
+  </head>
+  <body>
+    <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+        <div class="player-name" id="name-0">Player 1</div>
+        <div class="player-score" id="score-0">43</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+
+          <div class="player-current-score" id="current-0">11</div>
+        </div>
+      </div>
+      <br /><<br />
+      <br /><br /><br />
+
+      <div class="palyer-1-panel">
+        <div class="player-name" id="name-1">Player 2</div>
+        <div class="player-score" id="score-1">72</div>
+        <div class="player-current-box">
+          <div class="cu">
+            <div class="player-current-label">Current</div>
+          </div>
+          <div class="player-current-score" id="current-1">0</div>
+        </div>
+      </div>
+      <button class="btn-new">
+        <i cLass="ion-ios-plus-outline"></i>New Game
+      </button>
+      <button class="btn-roll"><i cLass="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold">
+        <i cLass="ion-ios-download-outline"></i>Next turn
+      </button>
+
+      <!--     <img src="dice5.jpg" class="dice">-->
+      <img src="dice5.png" class="dice" id="dice-1" />
+      <img src="dice5.png" class="dice" id="dice-2" />
+
+      <input type="text" placeholder="final score" class="final-score" />
+    </div>
+
+    <!-- <script src="java.js"></script> -->
+    <script src="java1.js"></script>
+  </body>
+</html>
